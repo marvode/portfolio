@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = ({ logo }) => {
 	return (
-		<div class="header-logo">
+		<div className="header-logo">
 			<a href="index.html">
 				<img src={logo} alt="Homepage" />
 			</a>

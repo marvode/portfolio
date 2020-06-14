@@ -1,5 +1,5 @@
 import React from "react";
-import NavLink from "../NavLink/NavLink.component";
+import Link from "../Link/Link.component";
 
 const navlinks = [
 	{
@@ -31,10 +31,10 @@ const navlinks = [
 
 const Navbar = () => {
 	return (
-		<nav class="row header-nav-wrap">
-			<ul class="header-nav">
+		<nav className="row header-nav-wrap">
+			<ul className="header-nav">
 				{navlinks.map((navlink, i) => (
-					<NavLink key={i} {...navlink} />
+					<Link key={i} {...navlink} classes="smoothscroll" />
 				))}
 			</ul>
 		</nav>

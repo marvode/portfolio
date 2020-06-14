@@ -8,13 +8,13 @@ import HamburgerIcon from "../../components/HamburgerIcon/HamburgerIcon.componen
 
 const Header = () => {
 	return (
-		<header class="s-header">
+		<header className="s-header">
 			<Logo logo={logo} />
 
-			<div class="header-content">
+			<div className="header-content">
 				<Navbar />
 
-				<a href="#0" class="btn btn--stroke btn--small">
+				<a href="#0" className="btn btn--stroke btn--small">
 					Download CV
 				</a>
 			</div>
