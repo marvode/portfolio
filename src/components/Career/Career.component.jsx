@@ -34,10 +34,18 @@ const career = [
 
 const Career = () => {
 	return (
-		<div className="row block-large-1-2 block-900-full work-positions">
-			{career.map((job, i) => (
-				<Position key={i} {...job} />
-			))}
+		<div className="s-about__section">
+			<div className="row">
+				<div className="column">
+					<h3 data-aos="fade-up">Career</h3>
+				</div>
+			</div>
+
+			<div className="row block-large-1-2 block-900-full work-positions">
+				{career.map((job, i) => (
+					<Position key={i} {...job} />
+				))}
+			</div>
 		</div>
 	);
 };

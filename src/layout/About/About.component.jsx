@@ -52,15 +52,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="s-about__section">
-				<div className="row">
-					<div className="column">
-						<h3 data-aos="fade-up">Career</h3>
-					</div>
-				</div>
-
-				<Career />
-			</div>
+			<Career />
 		</section>
 	);
 };
