@@ -37,27 +37,6 @@ const Testimonials = () => {
 						{testimonials.map((testimonial, i) => (
 							<Testimonial key={i} {...testimonial} />
 						))}
-						<div className="testimonial-slider__slide">
-							<p>
-								Nunc interdum lacus sit amet orci. Vestibulum
-								dapibus nunc ac augue. Fusce vel dui. In ac
-								felis quis tortor malesuada pretium. Curabitur
-								vestibulum aliquam leo. Qui sed at corrupti
-								expedita voluptas odit. Nihil ea quia nesciunt.
-								Ducimus aut sed ipsam.
-							</p>
-							<div className="testimonial-slider__author">
-								<img
-									src="images/avatars/user-05.jpg"
-									alt="Author image"
-									className="testimonial-slider__avatar"
-								/>
-								<cite className="testimonial-slider__cite">
-									<strong>Jeff Bezos</strong>
-									<span>CEO, Amazon</span>
-								</cite>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>

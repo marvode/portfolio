@@ -13,13 +13,13 @@ const PortfolioItem = ({ category, title, caption, link, image }) => {
 					>
 						<img
 							src={image}
-							srcSet={
-								" " +
-								{ image } +
-								" 1x, " +
-								{ image } +
-								"@2x 2x "
-							}
+							// srcSet={
+							// 	" " +
+							// 	{ image } +
+							// 	" 1x, " +
+							// 	{ image } +
+							// 	"@2x 2x "
+							// }
 							alt=""
 						/>
 					</a>

@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "../../components/Link/Link.component";
+import Link from "../Link/Link.component";
 
 const socialLinks = [
 	{

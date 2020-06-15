@@ -26,8 +26,8 @@ const services = [
 
 const ServicesList = () => {
 	return (
-		<div class="column large-6">
-			<ul class="services-list" data-aos="fade-up">
+		<div className="column large-6">
+			<ul className="services-list" data-aos="fade-up">
 				{services.map((service, i) => (
 					<ServicesListItem key={i} {...service} />
 				))}

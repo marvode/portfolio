@@ -6,11 +6,12 @@ import "./css/main.css";
 import "./css/vendor.css";
 
 import Header from "./layout/Header/Header.component";
-import Hero from "./layout/Hero/Hero.component";
-import About from "./layout/About/About.component";
-import Services from "./layout/Services/Services.component";
-import Portfolio from "./layout/Portfolio/Portfolio.component";
-import Testimonials from "./layout/Testimonials/Testimonials.component";
+import Hero from "./components/Hero/Hero.component";
+import About from "./components/About/About.component";
+import Services from "./components/Services/Services.component";
+import Portfolio from "./components/Portfolio/Portfolio.component";
+import Testimonials from "./components/Testimonials/Testimonials.component";
+import Footer from "./layout/Footer/Footer.component";
 
 AOS.init();
 
@@ -23,6 +24,7 @@ function App() {
 			<Services />
 			<Portfolio />
 			<Testimonials />
+			<Footer />
 		</div>
 	);
 }

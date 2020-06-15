@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioItem from "../../components/PortfolioItem/PortfolioItem.component";
+import PortfolioItem from "../PortfolioItem/PortfolioItem.component";
 
 const works = [
 	{
