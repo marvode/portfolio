@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesListItem = ({ title, details }) => {
 	return (
-		<li className="services-list__item is-active">
+		<li className="services-list__item">
 			<div className="services-list__item-header">
 				<h5>{title}</h5>
 			</div>

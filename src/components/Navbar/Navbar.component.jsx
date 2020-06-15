@@ -34,7 +34,11 @@ const Navbar = () => {
 		<nav className="row header-nav-wrap">
 			<ul className="header-nav">
 				{navlinks.map((navlink, i) => (
-					<Link key={i} {...navlink} classes="smoothscroll" />
+					<Link
+						key={i}
+						{...navlink}
+						classes="smoothscroll header-link"
+					/>
 				))}
 			</ul>
 		</nav>

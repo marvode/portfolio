@@ -13,7 +13,14 @@ import Portfolio from "./components/Portfolio/Portfolio.component";
 import Testimonials from "./components/Testimonials/Testimonials.component";
 import Footer from "./layout/Footer/Footer.component";
 
-AOS.init();
+AOS.init({
+	offset: 100,
+	duration: 600,
+	easing: "ease-in-out",
+	delay: 300,
+	once: true,
+	disable: "mobile",
+});
 
 function App() {
 	return (
