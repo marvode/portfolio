@@ -3,30 +3,16 @@ import Position from "../Position/Position.component";
 
 const career = [
 	{
-		company: "Google",
-		role: "Product Designer",
-		time: "June 2017 - PRESENT",
+		company: "Crud Automated Systems",
+		role: "Full Stack Developer",
+		time: "May 2019 - November 2019",
 		summary:
 			"Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.",
 	},
 	{
-		company: "Google",
-		role: "Product Designer",
-		time: "June 2017 - PRESENT",
-		summary:
-			"Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.",
-	},
-	{
-		company: "Google",
-		role: "Product Designer",
-		time: "June 2017 - PRESENT",
-		summary:
-			"Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.",
-	},
-	{
-		company: "Google",
-		role: "Product Designer",
-		time: "June 2017 - PRESENT",
+		company: "Azimuth Geoscan and Engineering",
+		role: "Engineering Intern",
+		time: "March 2017 - September 2017",
 		summary:
 			"Pellentesque posuere. Etiam rhoncus. Praesent blandit laoreet nibh. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.",
 	},

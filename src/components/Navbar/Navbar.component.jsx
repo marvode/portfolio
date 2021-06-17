@@ -24,8 +24,8 @@ const navlinks = [
 	},
 	{
 		placeholder: "Say Hello",
-		href: "#mailto:#0",
-		title: "Contact Us",
+		href: "mailto:odemwingiemarv@gmail.com",
+		title: "Contact",
 	},
 ];
 

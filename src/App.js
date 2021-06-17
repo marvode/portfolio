@@ -10,7 +10,7 @@ import Hero from "./components/Hero/Hero.component";
 import About from "./components/About/About.component";
 import Services from "./components/Services/Services.component";
 import Portfolio from "./components/Portfolio/Portfolio.component";
-import Testimonials from "./components/Testimonials/Testimonials.component";
+// import Testimonials from "./components/Testimonials/Testimonials.component";
 import Footer from "./layout/Footer/Footer.component";
 
 AOS.init({
@@ -30,7 +30,6 @@ function App() {
 			<About />
 			<Services />
 			<Portfolio />
-			<Testimonials />
 			<Footer />
 		</div>
 	);

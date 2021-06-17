@@ -23,30 +23,15 @@ const About = () => {
 
 						<div className="profile-pic" data-aos="fade-up">
 							<img
-								src="images/profile-pic.jpg"
-								srcSet="
-									images/profile-pic.jpg    1x,
-									images/profile-pic@2x.jpg 2x
-								"
-								alt=""
+								src="images/profile-pic.jpg" alt=""
+								style={{ width: "100%" }}
 							/>
 						</div>
 
 						<h3 data-aos="fade-up">Profile</h3>
 
 						<p data-aos="fade-up">
-							In consectetuer turpis ut velit. Praesent metus
-							tellus, elementum eu, semper a, adipiscing nec,
-							purus. Vestibulum ante ipsum primis in faucibus orci
-							luctus et ultrices posuere cubilia Curae; In ac dui
-							quis mi consectetuer lacinia. Fusce neque. Curabitur
-							nisi. Suspendisse nisl elit, rhoncus eget, elementum
-							ac, condimentum eget, diam. Phasellus magna. Duis
-							arcu tortor, suscipit eget, imperdiet nec, imperdiet
-							iaculis, ipsum. Maecenas egestas arcu quis ligula
-							mattis placerat. Suspendisse pulvinar, augue ac
-							venenatis condimentum, sem libero volutpat nibh, nec
-							pellentesque velit pede quis nunc.
+							Knowledgeable and skilled Full Stack Developer versed in a number of programming tools and languages. Proficient in both backend and frontend development. Hardworking, focused, analytical and resourceful problem-solver with disciplined approach and skill in producing clean, robust code.
 						</p>
 					</div>
 				</div>

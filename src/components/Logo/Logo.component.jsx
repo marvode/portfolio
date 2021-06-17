@@ -3,7 +3,7 @@ import React from "react";
 const Logo = ({ logo }) => {
 	return (
 		<div className="header-logo">
-			<a href="index.html">
+			<a href="/">
 				<img src={logo} alt="Homepage" />
 			</a>
 		</div>

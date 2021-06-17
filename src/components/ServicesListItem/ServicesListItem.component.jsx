@@ -6,9 +6,9 @@ const ServicesListItem = ({ title, details }) => {
 			<div className="services-list__item-header">
 				<h5>{title}</h5>
 			</div>
-			<div className="services-list__item-body">
+			{/* <div className="services-list__item-body">
 				<p>{details}</p>
-			</div>
+			</div> */}
 		</li>
 	);
 };

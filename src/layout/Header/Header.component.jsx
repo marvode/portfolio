@@ -48,8 +48,9 @@ class Header extends Component {
 					<Navbar />
 
 					<a
-						href="#0"
+						href="/public/Marv_Resume.pdf"
 						className="btn btn--stroke btn--small header-link"
+						download
 					>
 						Download CV
 					</a>

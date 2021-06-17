@@ -19,7 +19,7 @@ const Footer = () => {
 
 					<div className="footer-email-us">
 						<a
-							href="mailto:#0"
+							href="mailto:odemwingiemarv@gmail.com"
 							className="btn btn--primary h-full-width"
 						>
 							Let's Talk
@@ -37,7 +37,7 @@ const Footer = () => {
 								Email
 							</h5>
 							<p className="footer-contact-block__content">
-								<a href="mailto:#0">sayhello@ethos.com</a>
+								<a href="mailto:odemwingiemarv@gmail.com">odemwingiemarv@gmail.com</a>
 							</p>
 						</div>
 						<div
@@ -45,10 +45,10 @@ const Footer = () => {
 							data-aos="fade-up"
 						>
 							<h5 className="footer-contact-block__header">
-								Phone
+								Whatsapp
 							</h5>
 							<p className="footer-contact-block__content">
-								<a href="tel:+1975432345">+197 543 2345</a>
+								<a href="https://api.whatsapp.com/send?phone=2348139161877">+234 813 916 1877</a>
 							</p>
 						</div>
 						<br />
@@ -61,16 +61,13 @@ const Footer = () => {
 							</h5>
 							<ul className="footer-contact-block__list">
 								<li>
-									<a href="#0">Twitter</a>
+									<a href="https://twitter.com/marv_odemwingie">Twitter</a>
 								</li>
 								<li>
-									<a href="#0">Instagram</a>
+									<a href="https://github.com/marvode">Github</a>
 								</li>
 								<li>
-									<a href="#0">Behance</a>
-								</li>
-								<li>
-									<a href="#0">Dribbble</a>
+									<a href="https://www.linkedin/in/marv-ode">LinkedIn</a>
 								</li>
 							</ul>
 						</div>

@@ -3,31 +3,15 @@ import PortfolioItem from "../PortfolioItem/PortfolioItem.component";
 
 const works = [
 	{
-		category: "Branding",
-		title: "Windows in The City",
+		category: "Web Development",
+		title: "Thankyz Services",
 		caption:
 			"Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.",
-		link: "#",
-		image: "images/portfolio/gallery/g-windows-in-the-city.jpg",
+		link: "https://thankyzservices.com.ng",
+		image: "images/portfolio/work1.png",
 	},
 	{
-		category: "Branding",
-		title: "Windows in The City",
-		caption:
-			"Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.",
-		link: "#",
-		image: "images/portfolio/gallery/g-windows-in-the-city.jpg",
-	},
-	{
-		category: "Branding",
-		title: "Windows in The City",
-		caption:
-			"Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.",
-		link: "#",
-		image: "images/portfolio/gallery/g-windows-in-the-city.jpg",
-	},
-	{
-		category: "Branding",
+		category: "Web Development",
 		title: "Windows in The City",
 		caption:
 			"Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.",
@@ -38,7 +22,7 @@ const works = [
 
 const Portfolio = () => {
 	return (
-		<section id="portfolio" className="s-portfolio target-section">
+		<section id="portfolio" className="s-portfolio target-section" style={{ paddingBottom: '15rem' }}>
 			<div className="row s-portfolio__header">
 				<div className="column large-6 medium-8 tab-full">
 					<div

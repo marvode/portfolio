@@ -4,22 +4,17 @@ import Link from "../Link/Link.component";
 const socialLinks = [
 	{
 		placeholder: "Twitter",
-		href: "#",
-		title: "",
-	},
-	{
-		placeholder: "Facebook",
-		href: "#",
+		href: "https://twitter.com/marv_odemwingie",
 		title: "",
 	},
 	{
 		placeholder: "Github",
-		href: "#",
+		href: "https://github.com/marvode",
 		title: "",
 	},
 	{
 		placeholder: "LinkedIn",
-		href: "#",
+		href: "https://www.linkedin/in/marv-ode",
 		title: "",
 	},
 ];
@@ -38,10 +33,9 @@ const Hero = () => {
 			<div className="row hero-content">
 				<div className="column large-full">
 					<h1>
-						Hello, I'm John Doe, <br />
-						a frontend developer <br />
-						& designer currently <br />
-						based somewhere.
+						Hello, I'm <br/>
+						Marvellous Odemwingie, <br />
+						a full stack web developer <br />
 					</h1>
 
 					<ul className="hero-social">
